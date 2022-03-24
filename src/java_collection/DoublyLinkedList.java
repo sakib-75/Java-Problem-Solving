@@ -30,7 +30,7 @@ public class DoublyLinkedList {
 		System.out.println("Removed Element: " + list.remove(list.indexOf("E")));
 		list.removeFirst();
 		list.removeLast();
-		list.removeIf(item -> (item == "K"));
+		list.removeIf(item -> (item.equals("K")));
 		System.out.println("LinkedList: " + list);
 
 		// peek prints 1st element
