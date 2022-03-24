@@ -52,12 +52,13 @@ class Literaturebook extends Book {
 //factory method
 class Bookfactory {
 	Book createbookbymood(String mood) {
-		if (mood.equals("Leisurely")) {
-			return new Literaturebook();
-		} else if (mood.equals("Motivated")) {
-			return new Practicebook();
-		} else if (mood.equals("In class")) {
-			return new Textbook();
+		switch (mood) {
+			case "Leisurely":
+				return new Literaturebook();
+			case "Motivated":
+				return new Practicebook();
+			case "In class":
+				return new Textbook();
 		}
 		return null;
 	}
