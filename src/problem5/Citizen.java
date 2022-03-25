@@ -1,24 +1,24 @@
 package problem5;
 
 public class Citizen {
-    public int id;
     public String name;
-    public int phone;
-    public int salary;
+    public int id, phone;
+    public double salary;
 
-    public Citizen(int a,String b,int c)   //Three parameter
+    public Citizen(int id, String name, int phone)   //Three parameter
     {
-        id=a;
-        name=b;
-        phone=c;
-        salary=0;
+        this.id = id;
+        this.name = name;
+        this.phone = phone;
+        this.salary = 0;
     }
-    public Citizen(int w,String x,int y,int z)   //Four parameter
+
+    public Citizen(int id, String name, int phone, double salary)   //Four parameter
     {
-        id=w;
-        name=x;
-        phone=y;
-        salary=z;
+        this.id = id;
+        this.name = name;
+        this.phone = phone;
+        this.salary = salary;
     }
 
 }
