@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 public class ReverseString2 {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);
@@ -30,12 +29,9 @@ public class ReverseString2 {
 		ListIterator<Character> li = list.listIterator();
 		
 		System.out.print("Reversed string: ");
-		
 		while(li.hasNext()) {
 			System.out.print(li.next());
 		}
-			
-
 
 	}
 
