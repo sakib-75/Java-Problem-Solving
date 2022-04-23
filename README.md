@@ -1,8 +1,8 @@
 # Java-Problem-Solving
 Java problem example with solution
 
-## This project cover following topic
-1. Java core concept
+## This project cover following topics
+1. Java core concepts
    - Encapsulation
    - Abstraction
    - Interface
