@@ -5,7 +5,6 @@ import java.util.Scanner;
 //Java program to Reverse a String using swapping
 public class ReverseString3 {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);
@@ -23,10 +22,10 @@ public class ReverseString3 {
 		}
 		
 		System.out.print("Reversed string: ");
-		for (char c : temparray)
+		for (char c : temparray){
 			System.out.print(c);
-		
-		
+		}
+
 
 	}
 
