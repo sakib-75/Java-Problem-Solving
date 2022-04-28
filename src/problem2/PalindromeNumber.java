@@ -1,11 +1,9 @@
 package problem2;
 import java.util.Scanner;
 
-
 //Java Program to Check Palindrome Number
 public class PalindromeNumber {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);
@@ -26,7 +24,6 @@ public class PalindromeNumber {
 		else {
 			System.out.println(originalNum + " is not Palindrome.");
 		}
-		
 
 	}
 

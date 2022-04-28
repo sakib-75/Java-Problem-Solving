@@ -30,11 +30,11 @@ public class JavaArrayList {
 		// Access ArrayList Elements
 		String get_elem = color.get(2);
 		System.out.println("Get Element: " + get_elem);
-				
+
 		//Change ArrayList Elements
 		color.set(3, "New Color");
 		System.out.println("Modified ArrayList: " + color);
-				
+
 		//Remove ArrayList Elements
 		String str = color.remove(color.indexOf("Black"));
 		System.out.println("Removed Element: " + str);
@@ -45,8 +45,8 @@ public class JavaArrayList {
 		System.out.println(color.contains(checkData));
 		
 		//Java ArrayList retainAll()
-		//color.retainAll(color2);
-		//System.out.println("Common Elements: " + color);
+		color.retainAll(color2);
+		System.out.println("Common Elements: " + color);
 		
 		
 		//View data using ListIterator
