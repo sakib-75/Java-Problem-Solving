@@ -1,16 +1,16 @@
 package remove_duplicates;
 
 public class DuplicatesFromString {
-    public static String removeDuplicateChars(String str) {
+    public static StringBuilder removeDuplicateChars(String str) {
         char[] char_arr = str.toCharArray();
         StringBuilder targetStr = new StringBuilder();
 
         for (char c : char_arr) {
-            if (targetStr.toString().indexOf(c) == -1) {
+            if (targetStr.indexOf(String.valueOf(c)) == -1) {
                 targetStr.append(c);
             }
         }
-        return targetStr.toString();
+        return targetStr;
     }
 
     public static void main(String[] args) {

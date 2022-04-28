@@ -4,7 +4,6 @@ import java.util.Scanner;
 //Display Fibonacci Series
 public class FibonacciSeries1 {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);

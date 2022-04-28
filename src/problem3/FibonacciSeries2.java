@@ -4,7 +4,6 @@ import java.util.Scanner;
 //Display Fibonacci series up to a given number
 public class FibonacciSeries2 {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);

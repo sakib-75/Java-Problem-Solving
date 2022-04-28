@@ -2,7 +2,7 @@ package remove_duplicates;
 
 public class DuplicatesFromString2 {
 
-    public static String unique(String str) {
+    public static StringBuilder unique(String str) {
         StringBuilder new_str = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {
@@ -12,12 +12,12 @@ public class DuplicatesFromString2 {
             }
         }
 
-        return new_str.toString();
+        return new_str;
     }
 
     // Driver code
     public static void main(String[] args) {
-        String s = "xyxzyxz";
+        String s = "xyxzyxz abbaa";
         System.out.print("After removing duplicates characters: ");
         System.out.println(unique(s));
     }
